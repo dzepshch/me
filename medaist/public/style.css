@@ -4,7 +4,7 @@
     font-family: Arial, sans-serif;
     background-color: #E8F5E9;
     color: #121712;
-    max-width: 360px;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
