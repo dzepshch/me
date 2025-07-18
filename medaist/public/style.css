@@ -46,7 +46,7 @@ main {
     max-width: 400px;
     padding: 20px;
     overflow-y: auto;
-    margin-bottom: 50px; /* Отступ для навигационной панели */
+    margin-bottom: 0; /* Отступ для навигационной панели */
 }
 
 .content {
