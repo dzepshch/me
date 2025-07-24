@@ -1,55 +1,19 @@
 ﻿<!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MedAist</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="logo">MedAist</div>
-        <div class="tagline">Учись с MedAist – Знания в твоем кармане!</div>
-    </header>
-    <main>
+    <p>Список теории</p>
+</body>
 
-        <!-- Модальное окно регистрации -->
-    <div id="registrationModal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <h3>Регистрация</h3>
-            <form id="registrationForm">
-                <label for="nickname">Ник/псевдоним:</label>
-                <input type="text" id="nickname" name="nickname" required><br><br>
-                
-                <label>Кем вы являетесь?</label><br>
-                <input type="checkbox" id="student" name="role" value="student">
-                <label for="student">Студент</label><br>
-                <input type="checkbox" id="teacher" name="role" value="teacher">
-                <label for="teacher">Преподаватель</label><br>
-                <input type="checkbox" id="other" name="role" value="other">
-                <label for="other">Другое</label><br>
-                <input type="text" id="otherRole" name="otherRole" style="display:none;" placeholder="Укажите кто"><br><br>
-                
-                <label for="years">Сколько лет в науке?</label>
-                <input type="number" id="years" name="years" min="0" required><br><br>
-                
-                <button type="submit" class="button">Сохранить</button>
-            </form>
-        </div>
-    </div>
-
-        <!-- Основной контент (пока пустой, будет заполняться в будущем) -->
-        <div class="content">
-            <p>Добро пожаловать в MedAist! Выберите раздел ниже.</p>
-        </div>
-    </main>
-
-
-    <footer class="nav-bar">
+<footer class="nav-bar">
         <button class="nav-item" onclick="document.location='index.html'">
             <svg width="24px" height="24px" viewBox="-2 -2 24 24" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" class="nav-icon"><path d='M18 18V7.132l-8-4.8-8 4.8V18h4v-2.75a4 4 0 1 1 8 0V18h4zm-6 2v-4.75a2 2 0 1 0-4 0V20H2a2 2 0 0 1-2-2V7.132a2 2 0 0 1 .971-1.715l8-4.8a2 2 0 0 1 2.058 0l8 4.8A2 2 0 0 1 20 7.132V18a2 2 0 0 1-2 2h-6z'/></svg>
             <span>Дом</span>
@@ -67,8 +31,4 @@
             <span>Мой профиль</span>
         </button>
     </footer>
-
-    
-    <script src="/scripts/main.js"></script>
-</body>
 </html>
